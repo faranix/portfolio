@@ -1,0 +1,16 @@
+.acceuil {
+    display: flex;
+    &__box {
+        height: 641px;
+        margin: 64px 56px 63px 0px;
+
+        img {
+            height: auto;
+            width: 810px;
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+}

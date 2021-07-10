@@ -1,0 +1,30 @@
+.menu {
+    margin: 130px 0 0 114px;
+
+    &__nav {
+
+        ul:nth-child(1) {
+            margin-bottom: 40px;
+        }
+
+        li {
+            margin-bottom: 15px;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+        
+        &__element {
+            font-size: 25px;
+            font-weight: lighter;
+            transition: all 300ms ease-out;
+            transform: scale(1);
+            
+            &:hover {
+                transform: scale(1.2);
+
+            }
+        }
+    }
+}

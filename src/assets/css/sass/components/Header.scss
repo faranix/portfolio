@@ -1,0 +1,24 @@
+.header {
+    margin: 64px 147px 0px 55px;
+    color: $color-black;
+
+    &__top {
+        display: flex;
+
+        div {
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__name {
+            font-size: 35px;
+            font-weight: normal;
+        }
+
+        &__metier {
+            font-size: 20px;
+            align-self: flex-end;
+        }
+    }
+}
