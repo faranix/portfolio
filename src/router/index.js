@@ -23,13 +23,15 @@ const routes = [
     component: () => import('../views/Experience.vue')
   },
   {
-    path: '/propos',
+    path: '/a-propos',
     name: 'Propos',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Propos.vue')
+    component: () => import( '../views/Propos.vue')
   },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: () => import("../views/Contact.vue")
+  }
 ]
 
 const router = createRouter({

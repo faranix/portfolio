@@ -8,8 +8,8 @@
             <li><a href="/#/experience" class="menu__nav__element">Experience</a></li>
           </ul>
           <ul>
-            <li><a href="" class="menu__nav__element">A propos</a></li>
-            <li><a href="" class="menu__nav__element">Contact</a></li>
+            <li><a href="/#/a-propos" class="menu__nav__element">A propos</a></li>
+            <li><a href="/#/contact" class="menu__nav__element">Contact</a></li>
           </ul>
       </nav>
   </div>
