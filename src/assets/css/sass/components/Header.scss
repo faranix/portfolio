@@ -1,8 +1,8 @@
 .header {
-    margin: 64px 147px 0px 55px;
     color: $color-black;
-
+    
     &__top {
+        margin-right: 147px;
         display: flex;
 
         div {
