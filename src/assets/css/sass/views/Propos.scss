@@ -1,0 +1,21 @@
+.propos {
+    display: flex;
+
+    &__box {
+        width: 65%;
+        text-align: center;
+
+        h2 {
+            font-weight: normal;
+            font-size: 30px;
+            margin-bottom: 100px;
+        }
+
+        &__text {
+            p {
+                font-size: 20px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
