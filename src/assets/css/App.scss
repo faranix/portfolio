@@ -23,6 +23,12 @@ li {
     list-style: none;
 }
 
+.app {
+    width: 100vw;
+    height: 100vh;
+    padding: 64px 56px 63px 55px;
+}
+
 // Components
 @import "./sass/components/Header.scss";
 @import "./sass/components/Menu.scss";
@@ -30,3 +36,5 @@ li {
 
 // Views
 @import "./sass/views/Acceuil.scss";
+@import "./sass/views/Projets.scss";
+@import "./sass/views/Experience.scss";

@@ -1,0 +1,68 @@
+@import "../stock/variable";
+
+.experience {
+    display: flex;
+
+    &__box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        
+        &__article {
+            position: relative;
+            background-color: $color-white;
+            text-align: center;
+            width: 354px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            margin-bottom: 6px;
+            box-shadow: -5px 4px 6px -3px #000;
+
+            p {
+                margin: 10px;
+            }
+
+            .fa-briefcase {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: 122.5%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                content: " ";
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+                z-index: 2;
+                color: $color-black;
+                background-color: $color-black;
+                transition: all 200ms ease-in;
+            }
+            &:hover .fa-briefcase, &.hover .fa-briefcase {
+                color: $color-white;
+            }
+        }
+
+
+        .article-end {
+            box-shadow: 5px 4px 6px -3px #000;
+            align-self: flex-end;
+            
+            .fa-briefcase {
+                left: -21.5%;
+            }
+        }
+    }
+
+    &__box::after {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        content: "";
+        width: 5px;
+        height: 90%;
+        background-color: $color-black;
+    }
+}
