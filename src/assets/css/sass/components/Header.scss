@@ -1,6 +1,8 @@
 .header {
     color: $color-black;
-    
+    position: fixed;
+    z-index: 999;
+        
     &__top {
         margin-right: 147px;
         display: flex;

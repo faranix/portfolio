@@ -1,3 +1,5 @@
+@import "../stock/variable";
+
 .menu {
     margin: 130px 0 0 114px;
 
@@ -20,7 +22,7 @@
             
             &:hover {
                 transform: scale(1.2);
-
+                color: $color-purple;
             }
         }
     }

@@ -3,29 +3,9 @@
       <Header />
 
       <div class="projets__box">
-          <div class="projets__box__article">
-              <img src="" alt="">
-              <h6>Title 1</h6>
-          </div>
-          <div class="projets__box__article">
-              <img src="" alt="">
-              <h6>Title 2</h6>
-          </div>
-          <div class="projets__box__article">
-              <img src="" alt="">
-              <h6>Title 3</h6>
-          </div>
-          <div class="projets__box__article">
-              <img src="" alt="">
-              <h6>Title 4</h6>
-          </div>
-          <div class="projets__box__article">
-              <img src="" alt="">
-              <h6>Title 5</h6>
-          </div>
-          <div class="projets__box__article">
-              <img src="" alt="">
-              <h6>Title 6</h6>
+          <div v-for="(article, index) in articles" :key="index" class="projets__box__article">
+              <img :src="article.image" alt="">
+              <h6>{{article.title}}</h6>
           </div>
       </div>
   </div>
@@ -37,6 +17,41 @@ export default {
     name: "Projets",
     components: {
         Header
+    },
+    data() {
+        return {
+            articles: [
+                {
+                    title: 'Ohmyfood',
+                    image: require("../assets/images/projet-1/ohmyfood.png"),
+                },
+                {
+                    title: 'Reservia',
+                    image: require("../assets/images/projet-2/reservia.png"),
+
+                },
+                {
+                    title: 'test',
+                    image: require("../assets/images/projet-1/ohmyfood.png"),
+
+                },
+                {
+                    title: 'test',
+                    image: require("../assets/images/projet-1/ohmyfood.png"),
+
+                },
+                {
+                    title: 'test',
+                    image: require("../assets/images/projet-1/ohmyfood.png"),
+
+                },
+                {
+                    title: 'test',
+                    image: require("../assets/images/projet-1/ohmyfood.png"),
+
+                },
+            ]
+        }
     }
 }
 </script>

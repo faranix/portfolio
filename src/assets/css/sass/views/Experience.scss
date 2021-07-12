@@ -1,13 +1,15 @@
 @import "../stock/variable";
+@import "../stock/mixin";
+@import "../stock/animation";
 
 .experience {
-    display: flex;
 
     &__box {
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 65%;
+        margin-left: 35%;
+        animation: pageAnimation 1s ease-in;
         
         &__article {
             position: relative;
@@ -42,6 +44,7 @@
             }
             &:hover .fa-briefcase, &.hover .fa-briefcase {
                 color: $color-white;
+                background-color: $color-purple;
             }
         }
 

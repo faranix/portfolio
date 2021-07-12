@@ -1,9 +1,14 @@
-.propos {
-    display: flex;
+@import "../stock/variable";
+@import "../stock/mixin";
+@import "../stock/animation";
 
+.propos {
     &__box {
-        width: 65%;
+        position: fixed;
+        left: 35%;
+        margin-right: 10%;
         text-align: center;
+        animation: pageAnimation 1s ease-in;
 
         h2 {
             font-weight: normal;

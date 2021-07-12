@@ -1,0 +1,89 @@
+@import "../stock/variable";
+@import "../stock/mixin";
+@import "../stock/animation";
+
+.formation {
+    display: flex;
+
+    &__box {
+        position: fixed;
+        left: 40%;
+        @include flexMid;
+        flex-direction: column;
+        justify-content: start;
+        animation: pageAnimation 1s ease-in;
+
+        &__article {
+            h2 {
+                margin-top: 41px;
+                margin-bottom: 112px;
+                font-size: 25px;
+                font-weight: lighter;
+            }
+
+            .slide-1 {
+                position: relative;
+                display: flex;
+                overflow: hidden;
+                width: 700px;
+                height: 100px;
+            }
+
+            .slide-2 {
+                position: relative;
+                display: flex;
+                overflow: hidden;
+                width: 700px;
+                height: 100px;
+            }
+
+            .container-slide {
+                display: flex;
+
+                .text-slider {
+                    text-align: center;
+                    white-space: nowrap;
+                    width: 700px;
+                    margin: 12px 0px 0px 0px;
+                    font-size: 20px;
+                }
+            }
+
+            .fa-sort-down {
+                position: absolute;
+                font-size: 50px;
+                cursor: pointer;
+                z-index: 2;
+                transition: all 200ms ease-in-out;
+
+                &:hover {
+                    border: 2px solid $color-purple;
+                    border-radius: 9999px;
+                    background-color: $color-purple;
+                    color: $color-white;
+                }
+            }
+
+            .arrow-left {
+                top: 0%;
+                left: 5%;
+                transform: rotate(90deg);
+            }
+
+            .arrow-right {
+                top: 0%;
+                right: 5%;
+                align-self: flex-end;
+                transform: rotate(-90deg);
+            }
+        }
+
+        .separateur {
+            width: 708px;
+            height: 5px;
+            background-color: $color-black;
+            margin-top: 80px;
+            margin-bottom: 44px;
+        }
+    }
+}
