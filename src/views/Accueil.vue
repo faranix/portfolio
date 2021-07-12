@@ -3,7 +3,7 @@
     <Header />
     
     <div class="acceuil__box">
-      <img src="../assets/images/moi.jpg" alt="">
+      <a href="/#/a-propos"><img src="../assets/images/moi.jpg" alt="Une image de moi"></a>
     </div>
   </div>
 </template>

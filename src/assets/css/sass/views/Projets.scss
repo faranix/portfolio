@@ -1,25 +1,57 @@
+@import "../stock/variable";
+@import "../stock/mixin";
+@import "../stock/animation";
+
 .projets {
-    display: flex;
     &__box {
-        width: 814px;
+        position: fixed;
+        left: 34%;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin-right: 5%;
+        color: $color-black;
+        animation: pageAnimation 1s ease-in;
+
         &__article {
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin-bottom: 80px;
+
             img {
+                cursor: pointer;
                 height: 216px;
                 width: 260px;
-                background-color: #000;
+                border-radius: 2px;
+                filter: saturate(0);
+                transition: all 250ms ease-in;
+
+                &:hover {
+                    filter: saturate(1);
+                    border: 2px solid $color-black;
+                }
+
+                &:hover + h6 {
+                    color: $color-purple;
+                }
             }
 
             h6 {
                 font-size: 20px;
-                
                 margin-top: 46px;
-             }
+                transition: all 350ms ease;
+                cursor: pointer;
+
+                &:hover {
+                    color: $color-purple;
+                }
+
+                // Fonctionne pas ?
+                &:hover + img {
+                    filter: saturate(1);
+                }
+            }
         }
     }
 }
