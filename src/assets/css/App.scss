@@ -2,6 +2,19 @@
 @import "./sass/stock/variable";
 @import "./sass/stock/mixin";
 
+// Components
+@import "./sass/components/Header.scss";
+@import "./sass/components/Menu.scss";
+@import "./sass/components/Footer.scss";
+
+// Views
+@import "./sass/views/Acceuil.scss";
+@import "./sass/views/Projets.scss";
+@import "./sass/views/Experience.scss";
+@import "./sass/views/Propos.scss";
+@import "./sass/views/Contact.scss";
+@import "./sass/views/Formation.scss";
+
 * {
     margin: 0;
     padding: 0;
@@ -29,15 +42,11 @@ li {
     padding: 64px 56px 63px 55px;
 }
 
-// Components
-@import "./sass/components/Header.scss";
-@import "./sass/components/Menu.scss";
-@import "./sass/components/Footer.scss";
+// Media Query 
 
-// Views
-@import "./sass/views/Acceuil.scss";
-@import "./sass/views/Projets.scss";
-@import "./sass/views/Experience.scss";
-@import "./sass/views/Propos.scss";
-@import "./sass/views/Contact.scss";
-@import "./sass/views/Formation.scss";
+@media screen and (max-width: 425px) {
+    .app {
+        padding: 0px;
+    }
+}
+
