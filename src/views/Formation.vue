@@ -52,31 +52,114 @@ export default {
     },
     methods: {
         prevFirstSlide() {
-            if (this.index === 0) {
-                this.index = -3500;
-            } else {
-                this.index += 700;
+            if (window.screen.availWidth > 425) {
+                if (this.index === 0) {
+                    this.index = -3500;
+                } else {
+                    this.index += 700;
+                }
+            } else if (window.screen.availWidth > 375) {
+                if (this.index === 0) {
+                    this.index = -2150;
+                } else {
+                    this.index += 430;
+                }
+            } else if (window.screen.availWidth > 320) {
+                if (this.index === 0) {
+                    this.index = -1900;
+                } else {
+                    this.index += 380;
+                }
+            } else if (window.screen.availWidth > 0) {
+                if (this.index === 0) {
+                    this.index = -1640;
+                } else {
+                    this.index += 328;
+                }
             }
         },
+
         nextFirstSlide() {
-            if (this.index === -3500) {
-                this.index = 0;
-            } else {
-                this.index -= 700;
+            if (window.screen.availWidth > 425) {
+                if (this.index === -3500) {
+                    this.index = 0;
+                } else {
+                    this.index -= 700;
+                }
+            } else if (window.screen.availWidth > 375) {
+                if (this.index === -2150) {
+                    this.index = 0;
+                } else {
+                    this.index -= 430;
+                }
+            } else if (window.screen.availWidth > 320) {
+                if (this.index === -1900) {
+                    this.index = 0;
+                } else {
+                    this.index -= 380;
+                }
+            } else if (window.screen.availWidth > 0) {
+                if (this.index === -1640) {
+                    this.index = 0;
+                } else {
+                    this.index -= 328;
+                }
             }
         },
+
         prevSecondSlide() {
-            if (this.secondIndex === 0) {
-                this.secondIndex = -2100;
-            } else {
-                this.secondIndex += 700;
+            if (window.screen.availWidth > 425) {
+                if (this.secondIndex === 0) {
+                    this.secondIndex = -2100;
+                } else {
+                    this.secondIndex += 700;
+                }
+            } else if (window.screen.availWidth > 375) {
+                if (this.secondIndex === 0) {
+                    this.secondIndex = -1290;
+                } else {
+                    this.secondIndex += 430;
+                }
+            } else if (window.screen.availWidth > 320) {
+                if (this.secondIndex === 0) {
+                    this.secondIndex = -1140;
+                } else {
+                    this.secondIndex += 380;
+                }
+            } else if (window.screen.availWidth > 0) {
+                if (this.secondIndex === 0) {
+                    this.secondIndex = -984;
+                } else {
+                    this.secondIndex += 328;
+                }
             }
         },
+
         nextSecondSlide() {
-            if (this.secondIndex === -2100) {
-                this.secondIndex = 0;
-            } else {
-                this.secondIndex -= 700;
+            if (window.screen.availWidth > 425) {
+                if (this.secondIndex === -2100) {
+                    this.secondIndex = 0;
+                } else {
+                    this.secondIndex -= 700;
+                }
+            } else if (window.screen.availWidth > 375) {
+                if (this.secondIndex === -1290) {
+                    this.secondIndex = 0;
+                } else {
+                    this.secondIndex -= 430;
+                }
+            } else if (window.screen.availWidth > 320) {
+                if (this.secondIndex === -1140) {
+                    this.secondIndex = 0;
+                } else {
+                    this.secondIndex -= 380;
+                }
+            } else if (window.screen.availWidth > 0) {
+                if (this.secondIndex === -984) {
+                    this.secondIndex = 0;
+                } else {
+                    this.secondIndex -= 328;
+                }
             }
         },
     }

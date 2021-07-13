@@ -24,3 +24,59 @@
         }
     }
 }
+
+// Media Query 
+
+@media screen and (max-width: 768px) {
+    .propos {
+        &__box {
+            @include flexMid;
+            flex-direction: column;
+            text-align: center;
+            position: initial;
+            margin-right: 0;
+            margin-bottom: 0px;
+
+            h2 {
+                font-size: 25px;
+                margin-bottom: 60px;
+            }
+
+            &__text {
+                p {
+                    font-size: 18px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .propos {
+        &__box {
+            margin-top: 20px;
+
+            &__text {
+                padding: 0 10px;
+                p {
+                    font-size: 17px;
+                    margin-bottom: 35px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .propos {
+        &__box {
+            &__text {
+                p {
+                    font-size: 15px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}

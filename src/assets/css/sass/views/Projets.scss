@@ -55,3 +55,68 @@
         }
     }
 }
+
+// Media Query 
+
+@media screen and (max-width: 1024px) {
+    .projets {
+        &__box {
+            margin-right: 0px;
+            &__article {
+                margin-bottom: 30px;
+
+                img {
+                    width: 190px;
+                    height: 180px;
+                }
+
+                h6 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projets {
+        &__box {
+            position: inherit;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .projets {
+        &__box {
+            margin-top: 40px;
+            &__article {
+                width: 100%;
+
+                h6 {
+                    margin-top: 35px;
+                }
+
+                img {
+                    border-top: 2px solid ;
+                    border-bottom: 2px solid ;
+                    width: 100%;
+                    height: 300px;
+                    filter: saturate(1);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .projets {
+        &__box {
+            &__article {
+                img {
+                    height: 320px;
+                }
+            }
+        }
+    }
+}

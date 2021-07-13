@@ -108,3 +108,54 @@
         }
     }
 }
+
+// Media Query 
+
+@media screen and (max-width: 768px) {
+    .contact {
+        &__box {
+            position: initial;
+            margin-right: 0;
+
+            p {
+                text-align: center;
+                font-size: 15px;
+                margin-bottom: 30px;
+            }
+
+            .form {
+                label {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contact {
+        &__box {
+            h2 {
+                font-size: 25px;
+            }
+            .form {
+                &__name {
+                    flex-direction: column;
+                    
+                    div {
+                        input {
+                            width: 100%;
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+
+                &__message {
+                    input {
+                        height: 80px;
+                    }
+                }
+            }
+        }
+    }
+}
