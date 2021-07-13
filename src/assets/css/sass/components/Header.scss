@@ -23,4 +23,87 @@
             align-self: flex-end;
         }
     }
+
+    .fa-align-justify {
+        display: none;
+    }
+}
+
+// Media Query 
+
+@media screen and (max-width: 1024px) {
+    .header {
+        &__top {
+            &__name {
+                font-size: 25px;
+            }
+
+            &__metier {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        position: initial;
+        height: 100px;
+
+        &__top {
+            flex: 3;
+            img {
+                align-self: flex-start;
+            }
+
+            margin-right: 0px;
+
+            &__name {
+                white-space: nowrap;
+            }
+        }
+
+        .fa-align-justify {
+            position: relative;
+            font-size: 25px;
+            display: initial;
+        }
+
+        .fa-times {
+            display: initial;
+            position: absolute;
+            top: 8%;
+            right: 5%;
+            z-index: 2;
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        padding: 40px;
+        &__top {
+            img {
+                width: 30px;
+            }
+
+            &__name {
+                font-size: 20px;
+            }
+
+            &__metier {
+                font-size: 12px;
+            }
+        }
+
+        .fa-times {
+            top: 5%;
+            right: 10%;
+            z-index: 2;
+            font-size: 25px;
+        }
+    }
 }

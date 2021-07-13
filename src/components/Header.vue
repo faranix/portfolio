@@ -7,10 +7,16 @@
             <p class="header__top__metier">Développeur web</p>
         </div>
     </section>
+    <Menu
+      v-if="menu != 0"
+     />
 
-    <Menu />
+    <Footer 
+      v-if="menu != 0"
+    />
+    <i v-if="menu == 0" @click="menu = 1" class="fas fa-align-justify"></i>
+    <i v-else @click="menu = 0" class="fas fa-times"></i>
 
-    <Footer />
   </div>
 </template>
 
@@ -22,6 +28,16 @@ export default {
     name: "Header",
     components: {
         Menu, Footer
+    }, 
+    data() {
+      return {
+        menu: 1,
+      }
+    },
+    mounted() {
+      if (window.screen.availWidth <= 768) {
+        this.menu = 0;
+      }
     }
 }
 </script>

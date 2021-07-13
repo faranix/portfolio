@@ -31,3 +31,49 @@
         }
     }
 }
+
+// Media Query 
+
+@media screen and (max-width: 1024px) {
+    .acceuil {
+        &__box {
+            left: 40%;
+            width: 55%;
+            height: 580px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .acceuil {
+        position: initial;
+        display: flex;
+        flex-direction: column;
+        &__box {
+            position: initial;
+            height: 520px;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .acceuil {
+        &__box {
+            margin-top: 30px;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+} 
+
+@media screen and (max-width: 375px) {
+    .acceuil {
+        img {
+            height: 100%;
+        }
+    }
+}

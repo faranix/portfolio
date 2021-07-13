@@ -3,6 +3,10 @@
 .menu {
     margin: 130px 0 0 114px;
 
+    .fa-times {
+        display: none;
+    }
+
     &__nav {
 
         ul:nth-child(1) {
@@ -23,6 +27,48 @@
             &:hover {
                 transform: scale(1.2);
                 color: $color-purple;
+            }
+        }
+    }
+}
+
+// Media Query 
+
+@media screen and (max-width: 1024px) {
+    .menu {
+        &__nav {
+            &__element {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        @include flexMid;
+        z-index: 2;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 30%;
+        height: 100%;
+        background-color: $color-white;
+
+        ul:nth-child(1) {
+            margin-top: -40px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .menu {
+        width: 100%;
+
+        &__nav {
+            &__element {
+                font-size: 25px;
             }
         }
     }
