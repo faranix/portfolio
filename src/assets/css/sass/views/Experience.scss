@@ -122,6 +122,7 @@
                 padding: 10px 0;
                 margin-bottom: 20px;
                 z-index: 1;
+                transition: all 200ms ease-in;
 
                 p {
                     font-size: 10px;
@@ -130,6 +131,12 @@
                 .fa-briefcase {
                     display: none;
                 }
+
+                &:hover {
+                    background-color: $color-purple;
+                    color: $color-white;
+                }
+
             }
 
             .article-end {

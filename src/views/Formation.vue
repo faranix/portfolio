@@ -51,6 +51,9 @@ export default {
         }
     },
     methods: {
+        /**
+         * Permet de bien positioner le premier slide avec la fleche de gauche
+         */
         prevFirstSlide() {
             if (window.screen.availWidth > 425) {
                 if (this.index === 0) {
@@ -72,13 +75,16 @@ export default {
                 }
             } else if (window.screen.availWidth > 0) {
                 if (this.index === 0) {
-                    this.index = -1640;
+                    this.index = -1575;
                 } else {
-                    this.index += 328;
+                    this.index += 315;
                 }
             }
         },
 
+        /**
+         * Permet de bien positioner le premier slide avec la fleche de droite
+         */
         nextFirstSlide() {
             if (window.screen.availWidth > 425) {
                 if (this.index === -3500) {
@@ -99,14 +105,17 @@ export default {
                     this.index -= 380;
                 }
             } else if (window.screen.availWidth > 0) {
-                if (this.index === -1640) {
+                if (this.index === -1575) {
                     this.index = 0;
                 } else {
-                    this.index -= 328;
+                    this.index -= 315;
                 }
             }
         },
 
+        /**
+         * Permet de bien positioner le second slide avec la fleche de gauche
+         */
         prevSecondSlide() {
             if (window.screen.availWidth > 425) {
                 if (this.secondIndex === 0) {
@@ -128,13 +137,16 @@ export default {
                 }
             } else if (window.screen.availWidth > 0) {
                 if (this.secondIndex === 0) {
-                    this.secondIndex = -984;
+                    this.secondIndex = -945;
                 } else {
-                    this.secondIndex += 328;
+                    this.secondIndex += 315;
                 }
             }
         },
 
+        /**
+         * Permet de bien positioner le second slide avec la fleche de droite
+         */
         nextSecondSlide() {
             if (window.screen.availWidth > 425) {
                 if (this.secondIndex === -2100) {
@@ -155,10 +167,10 @@ export default {
                     this.secondIndex -= 380;
                 }
             } else if (window.screen.availWidth > 0) {
-                if (this.secondIndex === -984) {
+                if (this.secondIndex === -945) {
                     this.secondIndex = 0;
                 } else {
-                    this.secondIndex -= 328;
+                    this.secondIndex -= 315;
                 }
             }
         },
