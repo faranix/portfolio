@@ -31,6 +31,38 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: () => import("../views/Contact.vue")
+  },
+
+  // Les projets
+  {
+    path: "/projets/ohmyfood",
+    name: "Ohmyfood",
+    component: () => import("../views/projets/Ohmyfood.vue")
+  },
+  {
+    path: "/projets/reservia",
+    name: "Reservia",
+    component: () => import("../views/projets/Reservia.vue")
+  },
+  {
+    path: "/projets/orinoco",
+    name: "Orinoco",
+    component: () => import("../views/projets/Orinoco.vue")
+  },
+  {
+    path: "/projets/so-pekocko",
+    name: "Sopekocko",
+    component: () => import("../views/projets/Sopekocko.vue")
+  },
+  {
+    path: "/projets/groupamania",
+    name: "Groupamania",
+    component: () => import("../views/projets/Groupamania.vue")
+  },
+  {
+    path: "/projets/my-beauty-break",
+    name: "MyBeautyBreak",
+    component: () => import("../views/projets/MyBeautyBreak.vue")
   }
 ]
 

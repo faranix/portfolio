@@ -2,7 +2,7 @@
 @import "../stock/mixin";
 @import "../stock/animation";
 
-.acceuil {
+.Accueil {
     &__box {
         position: fixed;
         left: 35%;
@@ -35,7 +35,7 @@
 // Media Query 
 
 @media screen and (max-width: 1024px) {
-    .acceuil {
+    .Accueil {
         &__box {
             left: 40%;
             width: 55%;
@@ -45,7 +45,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .acceuil {
+    .Accueil {
         position: initial;
         display: flex;
         flex-direction: column;
@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .acceuil {
+    .Accueil {
         &__box {
             margin-top: 30px;
             width: 100%;
@@ -71,7 +71,7 @@
 } 
 
 @media screen and (max-width: 375px) {
-    .acceuil {
+    .Accueil {
         img {
             height: 100%;
         }

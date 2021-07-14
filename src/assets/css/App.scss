@@ -8,12 +8,20 @@
 @import "./sass/components/Footer.scss";
 
 // Views
-@import "./sass/views/Acceuil.scss";
+@import "./sass/views/Accueil.scss";
 @import "./sass/views/Projets.scss";
 @import "./sass/views/Experience.scss";
 @import "./sass/views/Propos.scss";
 @import "./sass/views/Contact.scss";
 @import "./sass/views/Formation.scss";
+
+// Les Projets
+@import "./sass/views/projets/Ohmyfood.scss";
+@import "./sass/views/projets/Reservia.scss";
+@import "./sass/views/projets/Orinoco.scss";
+@import "./sass/views/projets/Sopekocko.scss";
+@import "./sass/views/projets/Groupamania.scss";
+@import "./sass/views/projets/MyBeautyBreak.scss";
 
 * {
     margin: 0;

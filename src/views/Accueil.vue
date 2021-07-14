@@ -1,8 +1,8 @@
 <template>
-  <div class="acceuil">
+  <div class="Accueil">
     <Header />
     
-    <div class="acceuil__box">
+    <div class="Accueil__box">
       <a href="/#/a-propos"><img src="../assets/images/moi.jpg" alt="Une image de moi"></a>
     </div>
   </div>
@@ -12,7 +12,7 @@
 import Header from "@/components/Header.vue";
 
 export default {
-  name: 'Acceuil',
+  name: 'Accueil',
   components: {
     Header,
   }
