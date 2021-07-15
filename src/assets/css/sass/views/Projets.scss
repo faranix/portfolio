@@ -32,7 +32,7 @@
                     border: 2px solid $color-black;
                 }
 
-                &:hover + h6 {
+                &:hover h6, &.hover h6 {
                     color: $color-purple;
                 }
             }
@@ -45,11 +45,6 @@
 
                 &:hover {
                     color: $color-purple;
-                }
-
-                // Fonctionne pas ?
-                &:hover + img {
-                    filter: saturate(1);
                 }
             }
         }

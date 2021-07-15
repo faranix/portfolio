@@ -9,6 +9,7 @@
     </section>
     <Menu
       v-if="menu != 0"
+      :closeMenu="closeMenu"
      />
 
     <Footer 
@@ -34,10 +35,15 @@ export default {
         menu: 1,
       }
     },
-    mounted() {
-      if (window.screen.availWidth <= 768) {
-        this.menu = 0;
+    methods: {
+      closeMenu() {
+        if (window.screen.availWidth <= 768) {
+          this.menu = 0;
+        }
       }
+    },
+    mounted() {
+      this.closeMenu();
     }
 }
 </script>

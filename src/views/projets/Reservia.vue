@@ -13,23 +13,24 @@
             <div class="reservia__box__text">
                 <h2>Reservia</h2>
                 <p>
-                    Ce projet utilise du HTML, CSS. ce projet consisté à faire intégration d'une maquette c'était mon tout 
+                    Ce projet utilise du HTML, CSS. Cette étude consiste à faire l'intégration d'une maquette c'était mon tout 
                     premier véritable projet.
                 </p>
 
                 <p>
-                    Celui la même qui m’a appris les bases du développement web (HTML et CSS). je ne vais pas vous cacher que j'avais 
-                    bien galéré, mais j'aimais ce sentiment quand on passe plusieurs heures, plusieurs jours sur un problème de CSS 
+                    Celui la même, qui m’a appris les bases du développement web (HTML et CSS). Je ne vais pas vous cacher que j'avais des
+                    difficultés, mais j'aimais ce sentiment, quand on passe plusieurs heures, plusieurs jours, sur un problème de CSS 
                     une marge additionnait au padding, un display pas bien configuré.
                 </p>
 
                 <p>
-                    Ce projet ma littéralement appris à être curieux, à faire des recherches dès que j'ai un problème que j'arrive 
-                    pas à résoudre, même si j'avais cela déjà au fond de moi.
+                    Ce projet ma littéralement appris à être curieux, à faire des recherches dès que j'ai un problème que j'arrivais 
+                    pas à résoudre, même si j'avais cela, déjà au fond de moi. J'apprécie faire des recherches et d'en apprendre d'avantages
+                    aussi bien pour ma culture personnelle que professionnelle.
                 </p>
 
                 <p>
-                    Vous l'auriez sans doute compris ceci et le tout premier projet de ma formation de développeur web est-il à une 
+                    Vous l'auriez sans doute compris, ceci et le tout premier projet de ma formation de développeur web et il a une 
                     place dans mon github voici le lien du code source 
                     <span class="lien">
                         <a href="https://github.com/faranix/StephaneGledic_2_05122020" target="blank">

@@ -12,15 +12,15 @@
             <div class="ohmyfood__box__text">
                 <h2>Ohmyfood</h2>
                 <p>
-                    Ce projet utilise du HTML, SASS. dans ce projet j'étais chargé de l'intégration des maquettes, des différentes 
-                    animations. Au niveau des animations il y a un loader des animations quand on arrive sur les pages cette animation 
+                    Ce projet utilise du HTML, SASS. Dans ce projet j'étais chargé de l'intégration des maquettes, des différentes 
+                    animations. Au niveau des animations il y a un loader des animations quand on arrive sur les pages, cette animation 
                     a était repris pour mon portfolio. il y a également des annimations quand on veut choisir quelque chose dans le menu.
                 </p>
 
                 <p>
-                    Ce projet m’a permis des maitrisser SASS, les keyframes, approfondir mes connaissances sur les resuperposer.
-                    comprendre les sélecteurs un peu mieux de comprendre comment utiliser un hover sur plusieurs élement avec du CSS, 
-                    cette animation a été utilisée dans la catégorie expérience de mon portfolio. de maitrisser les transitions.
+                    Ce projet m’a permis des maitrisser SASS, les keyframes, approfondir mes connaissances sur les animations et de
+                    comprendre les sélecteurs, comment utiliser un hover sur plusieurs élement avec du CSS.
+                    Cette animation a été utilisée dans la catégorie expérience de mon portfolio, de maitrisser les transitions.
                 </p>
 
                 <p>
@@ -33,7 +33,7 @@
                 </p>
 
                 <p>
-                    C'était un projet assez simple mais qui m’a appris pas mal de choses sur les animations. c'est pour cela que 
+                    C'était un projet assez simple mais qui m’a appris pas mal de choses sur les animations. C'est pour cela que 
                     j'ai adoré ce projet ! Malgré qu'on ne pouvait pas choisir nos propres animations. 
                 </p>
             </div>

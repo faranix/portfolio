@@ -2,14 +2,14 @@
   <div class="menu">
       <nav class="menu__nav">
           <ul>
-            <li><a href="#" class="menu__nav__element">Accueil</a></li>
-            <li><a href="/#/projets" class="menu__nav__element">Projets</a></li>
-            <li><a href="/#/formation" class="menu__nav__element">Formation</a></li>
-            <li><a href="/#/experience" class="menu__nav__element">Experience</a></li>
+            <li><a @click="closeMenu()" href="#" class="menu__nav__element">Accueil</a></li>
+            <li><a @click="closeMenu()" href="/#/projets" class="menu__nav__element">Projets</a></li>
+            <li><a @click="closeMenu()" href="/#/formation" class="menu__nav__element">Formation</a></li>
+            <li><a @click="closeMenu()" href="/#/experience" class="menu__nav__element">Experience</a></li>
           </ul>
           <ul>
-            <li><a href="/#/a-propos" class="menu__nav__element">A propos</a></li>
-            <li><a href="/#/contact" class="menu__nav__element">Contact</a></li>
+            <li><a @click="closeMenu()" href="/#/a-propos" class="menu__nav__element">A propos</a></li>
+            <li><a @click="closeMenu()" href="/#/contact" class="menu__nav__element">Contact</a></li>
           </ul>
       </nav>
   </div>
@@ -18,5 +18,10 @@
 <script>
 export default {
     name: "Menu",
+    props: {
+      closeMenu: {
+        type: Function,
+      }
+    }
 }
 </script>

@@ -4,7 +4,7 @@
 
       <div class="projets__box">
           <div v-for="(article, index) in articles" :key="index" class="projets__box__article">
-              <a :href="article.url">
+              <a @click="scrollToTop()" :href="article.url">
                 <img :src="article.image" alt="">
               </a>
                 <h6>{{article.title}}</h6>
@@ -15,6 +15,7 @@
 
 <script>
 import Header from "../components/Header.vue";
+
 export default {
     name: "Projets",
     components: {
@@ -45,7 +46,7 @@ export default {
                 },
                 {
                     title: 'Groupamania',
-                    image: require("../assets/images/projet-1/ohmyfood.png"),
+                    image: require("../assets/images/projet-5/groupamania-6.png"),
                     url: "#/projets/groupamania"
                 },
                 {
@@ -54,6 +55,11 @@ export default {
                     url: "#/projets/my-beauty-break"
                 },
             ]
+        }
+    },
+    methods: { 
+        scrollToTop() {
+            window.scrollTo(0,0);
         }
     }
 }

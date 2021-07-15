@@ -10,16 +10,16 @@
           j'aime réparer des ordinateurs, les nettoyer des virus, changer les pièces, comprendre la compatibilité etc...
         </p>
         <p>
-          Depuis début 2020 je me suis intéressé à la programmation en général (web, application, jeux vidéo). c'est pour cela que j'ai
+          Depuis début 2020 je me suis intéressé à la programmation en général (web, application, jeux vidéo). C'est pour cela que j'ai
           décidé de faire une formation avec la plateforme Openclassrooms dans le développement web.
           </p>
         <p>
-          Une formation de 8 mois que j'ai terminé avec 2 mois d'avance grâce aux connaissances que j'ai acquises auparavant
+          Une formation de 8 mois, que j'ai terminé avec 2 mois d'avance, grâce aux connaissances que j'ai acquises auparavant.
         </p>
         <p>
-          Mais je suis aussi intéressé par d'autres passions bien sur, comme le sport, les jeux vidéo, la photographie. J'étais même
+          Par ailleurs je suis aussi intéressé par d'autres passions bien sur comme, le sport, les jeux vidéo, la photographie. J'étais même
           photographe à mon compte pendant une période, mais voila j'ai trouvé mon nouveau chemin le développement web, front-end 
-          ou backend j'adore les deux !
+          ou backend j'apprécie les deux !
         </p>
       </div>
     </div>

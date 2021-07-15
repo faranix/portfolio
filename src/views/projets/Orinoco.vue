@@ -13,26 +13,26 @@
             <div class="orinoco__box__text">
                 <h2>Orinoco</h2>
                 <p>
-                    Ce projet utilise du HTML, SASS, JAVASCRIPT. Ce projet consiter a créé un site e-commerce avec une API qui nous était fournie. 
-                    J'étais chargé de faire le front-end, je devais faire des appels au back-end.
+                    Ce projet utilise du HTML, SASS, JAVASCRIPT. Cette étude consite a créé un site e-commerce avec une l'API qui nous était 
+                    fournie. J'étais chargé de faire le front-end, je devais faire des appels au back-end.
                 </p>
 
                 <p>
-                    Du choix de l'article en passant au panier et avec un message si la commande était effectuée, faire que ce site web soit dynamique. 
-                    quand on ajoute un article tout se phase en direct.
+                    Du choix de l'article en passant au panier, avec un message si la commande était effectuée, faire que ce site web soit 
+                    dynamique quand on ajoute un article pour que tout se fasse en direct.
                 </p>
 
                 <p>
-                    Appliquer la méthode CRUD a mon site web, développer le design du site de a-z. 
+                    Appliquer la méthode CRUD a mon site web, développer le design de a-z. 
                 </p>
 
                 <p>
-                    Bien sûr j'avais des consignes le nombre de pages à faire, les routes pour les appels à API, un thème à choisir, bien sûr en tant qu'anciens 
-                    photographes j'ai pris un site e-commerce sur la photographie. 
+                    Bien sûr j'avais des consignes, le nombre de pages à faire, les routes pour les appels à l'API, un thème à choisir,
+                    en tant qu'ancien photographe. J'ai pris un site e-commerce sur la photographie. 
                 </p>
 
                 <p>
-                    Il fallait également penser aux possibles erreurs possibles, aux actions des utilisateurs et résoudre tout cela.
+                    Il fallait également penser aux erreurs possibles, aux actions des utilisateurs et les résoudre.
                 </p>
 
                 <p>
