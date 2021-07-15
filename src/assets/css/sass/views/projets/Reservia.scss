@@ -1,6 +1,150 @@
+@import "../../stock/variable";
+@import "../../stock/mixin";
+@import "../../stock/animation";
+
 .reservia {
     &__box {
-        position: fixed;
-        left: 35%;
+        margin-left: 37%;
+        width: 60%;
+        animation: pageAnimation 1s ease-in;
+
+        &__img {
+            float: right;
+            width: 250px;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        &__text {
+            h2 {
+                font-size: 35px;
+                font-weight: initial;
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-size: 20px;
+                margin-bottom: 15px;
+
+                .lien {
+                    color: $color-purple;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__galerie {
+            display: flex;
+            flex-wrap: wrap;
+
+            &__article {
+                flex: 3;
+                flex-wrap: wrap;
+                height: 250px;
+                margin-right: 10px;
+                margin-top: 20px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                    border: 3px solid $color-black;
+                    transition: all 250ms ease-in-out;
+
+                    &:hover {
+                        transform: scale(0.9);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Media Query 
+
+@media screen and (max-width: 768px) {
+    .reservia {
+        display: flex;
+        flex-direction: column;
+
+        &__box {
+            margin-left: 0;
+            width: 100%;
+
+            &__text {
+                h2 {
+                    font-size: 25px;
+                }
+    
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            &__galerie {
+                &__article {
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .reservia {
+        &__box {
+            padding: 0 10px;
+
+            &__text {
+                h2 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+
+            &__galerie {
+                &__article {
+                    flex: auto;
+                    width: 100%;
+                    height: 100%;
+
+                    img {
+                        object-fit: contain;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .reservia {
+        &__box {
+            &__img {
+                width: 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .reservia {
+        &__box {
+            &__text {
+                h2 {
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
     }
 }

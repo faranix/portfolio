@@ -35,12 +35,12 @@ export default {
                 },
                 {
                     title: 'Orinoco',
-                    image: require("../assets/images/projet-1/ohmyfood.png"),
+                    image: require("../assets/images/projet-3/orinoco.png"),
                     url: "#/projets/orinoco"
                 },
                 {
                     title: 'So Pekocko',
-                    image: require("../assets/images/projet-1/ohmyfood.png"),
+                    image: require("../assets/images/projet-3/orinoco.png"),
                     url: "#/projets/so-pekocko"
                 },
                 {
@@ -50,7 +50,7 @@ export default {
                 },
                 {
                     title: 'My Beauty Break',
-                    image: require("../assets/images/projet-1/ohmyfood.png"),
+                    image: require("../assets/images/projet-6/my-beauty-break.png"),
                     url: "#/projets/my-beauty-break"
                 },
             ]

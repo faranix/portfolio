@@ -6,6 +6,7 @@
 @import "./sass/components/Header.scss";
 @import "./sass/components/Menu.scss";
 @import "./sass/components/Footer.scss";
+@import "./sass/components/Modal-image.scss";
 
 // Views
 @import "./sass/views/Accueil.scss";
@@ -46,7 +47,7 @@ li {
 
 .app {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     padding: 64px 56px 63px 55px;
 }
 

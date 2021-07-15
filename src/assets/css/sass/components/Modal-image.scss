@@ -1,0 +1,63 @@
+@import "../stock/variable";
+@import "../stock/mixin";
+@import "../stock/animation";
+
+.modal-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    animation: pageAnimation 200ms ease;
+
+    .fa-times {
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        color: $color-white;
+        font-size: 40px;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    &__img {
+        @include flexMid;
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        img {
+            object-fit: contain;
+            width: 80%;
+            height: 80%;
+            z-index: 1001;
+        }
+    }
+
+    &__background {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $color-black;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+// Media Query 
+
+@media screen and (max-width: 425px) {
+    .modal-image {
+        .fa-times {
+            font-size: 20px;
+        }
+
+        &__img {
+            img {
+                height: 60%;
+            }
+        }
+    }
+}
