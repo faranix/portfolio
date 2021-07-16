@@ -8,7 +8,7 @@
             :projet="modalProjet"
         />
         <div class="reservia__box">
-            <img class="reservia__box__img" src="../../assets/images/projet-2/reservia.png" alt="L'image du projet Reservia">
+            <img class="reservia__box__img" src="../../assets/images/projet-2/reservia.jpg" alt="L'image du projet Reservia">
 
             <div class="reservia__box__text">
                 <h2>Reservia</h2>
@@ -42,7 +42,7 @@
 
             <div class="reservia__box__galerie">
                 <div v-for="(image, index) in arrayImg" :key="index" @click="openModal(arrayImg[index])" class="reservia__box__galerie__article">
-                    <img :id="image" :src="require(`../../assets/images/projet-2/${image}.png`)" alt="Une images du projet Reservia">
+                    <img :id="image" :src="require(`../../assets/images/projet-2/${image}.jpg`)" alt="Une images du projet Reservia">
                 </div>
             </div>
         </div>

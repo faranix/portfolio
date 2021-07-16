@@ -9,7 +9,7 @@
         />
 
         <div class="orinoco__box">
-            <img class="orinoco__box__img" src="../../assets/images/projet-3/orinoco.png" alt="Une images du projet Orinoco">
+            <img class="orinoco__box__img" src="../../assets/images/projet-3/orinoco.jpg" alt="Une images du projet Orinoco">
             <div class="orinoco__box__text">
                 <h2>Orinoco</h2>
                 <p>
@@ -47,7 +47,7 @@
 
             <div class="orinoco__box__galerie">
                 <div v-for="(image, index) in arrayImg" :key="index" @click="openModal(arrayImg[index])" class="orinoco__box__galerie__article">
-                    <img :id="image" :src="require(`../../assets/images/projet-3/${image}.png`)" alt="Une images d'un menu du projet Ohmyfood">
+                    <img :id="image" :src="require(`../../assets/images/projet-3/${image}.jpg`)" alt="Une images d'un menu du projet Ohmyfood">
                 </div>
             </div>
         </div>

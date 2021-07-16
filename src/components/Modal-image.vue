@@ -2,7 +2,7 @@
   <div class="modal-image">
       <i @click="modal()" class="fas fa-times"></i>
       <div class="modal-image__img">
-        <img :src="require(`@/assets/images/${projet}/${filename}.png`)" alt="">
+        <img :src="require(`@/assets/images/${projet}/${filename}.jpg`)" alt="">
       </div>
       <div @click="modal()" class="modal-image__background"></div>
   </div>

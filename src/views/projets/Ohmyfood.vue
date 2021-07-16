@@ -8,7 +8,7 @@
             :projet="modalProjet"
         />
         <div class="ohmyfood__box">
-            <img class="ohmyfood__box__img" src="../../assets/images/projet-1/ohmyfood-1.png" alt="Une images du projet Ohmyfood">
+            <img class="ohmyfood__box__img" src="../../assets/images/projet-1/ohmyfood-1.jpg" alt="Une images du projet Ohmyfood">
             <div class="ohmyfood__box__text">
                 <h2>Ohmyfood</h2>
                 <p>
@@ -40,7 +40,7 @@
 
             <div class="ohmyfood__box__galerie">
                 <div v-for="(image, index) in arrayImg" :key="index" @click="openModal(arrayImg[index])" class="ohmyfood__box__galerie__article">
-                    <img :id="image" :src="require(`../../assets/images/projet-1/${image}.png`)" alt="Une images d'un menu du projet Ohmyfood">
+                    <img :id="image" :src="require(`../../assets/images/projet-1/${image}.jpg`)" alt="Une images d'un menu du projet Ohmyfood">
                 </div>
             </div>
         </div>
