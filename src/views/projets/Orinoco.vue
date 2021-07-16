@@ -38,7 +38,7 @@
                 <p>
                     Je vous fournie le code source, 
                     <span class="lien">
-                        <a href="https://github.com/faranix/P5_Gledic_Stephane">
+                        <a href="https://github.com/faranix/P5_Gledic_Stephane" target="blank">
                         https://github.com/faranix/P5_Gledic_Stephane
                         </a>
                     </span>.

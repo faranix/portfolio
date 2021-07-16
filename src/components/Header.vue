@@ -3,7 +3,7 @@
     <section class="header__top">
         <img src="../assets/svg/icon-title.svg" alt="Un Icon">
         <div>
-            <h1 class="header__top__name">Stephane Gledic</h1>
+            <h1 class="header__top__name">Stéphane Gledic</h1>
             <p class="header__top__metier">Développeur web</p>
         </div>
     </section>

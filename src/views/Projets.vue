@@ -41,7 +41,7 @@ export default {
                 },
                 {
                     title: 'So Pekocko',
-                    image: require("../assets/images/projet-3/orinoco.png"),
+                    image: require("../assets/images/projet-4/sopekocko-1.png"),
                     url: "#/projets/so-pekocko"
                 },
                 {

@@ -18,7 +18,7 @@
                 </p>
 
                 <p>
-                    Il utilise du HTML, SASS et le framework VueJs. Dans ce projet j'étais chargé de réaliser tout le design, 
+                    Il utilise HTML, SASS et le framework VueJs, NodeJs, MySql. Dans ce projet j'étais chargé de réaliser tout le design, 
                     le front-end, le back-end, la base de données etc. Il utilise une base donnée Mysql.
                 </p>
 
