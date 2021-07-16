@@ -3,12 +3,13 @@
     <section class="header__top">
         <img src="../assets/svg/icon-title.svg" alt="Un Icon">
         <div>
-            <h1 class="header__top__name">Stephane Gledic</h1>
+            <h1 class="header__top__name">Stéphane Gledic</h1>
             <p class="header__top__metier">Développeur web</p>
         </div>
     </section>
     <Menu
       v-if="menu != 0"
+      :closeMenu="closeMenu"
      />
 
     <Footer 
@@ -34,10 +35,15 @@ export default {
         menu: 1,
       }
     },
-    mounted() {
-      if (window.screen.availWidth <= 768) {
-        this.menu = 0;
+    methods: {
+      closeMenu() {
+        if (window.screen.availWidth <= 768) {
+          this.menu = 0;
+        }
       }
+    },
+    mounted() {
+      this.closeMenu();
     }
 }
 </script>

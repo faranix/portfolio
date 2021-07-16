@@ -1,0 +1,148 @@
+@import "../../stock/variable";
+@import "../../stock/mixin";
+@import "../../stock/animation";
+
+.sopekocko {
+    &__box {
+        margin-left: 37%;
+        width: 60%;
+        animation: pageAnimation 1s ease-in;
+
+        &__img {
+            float: right;
+            width: 250px;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        &__text {
+            color: $color-black;
+            h2 {
+                font-size: 35px;
+                font-weight: initial;
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-size: 20px;
+                margin-bottom: 15px;
+
+                .lien {
+                    color: $color-purple;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__galerie {
+            display: flex;
+            flex-wrap: wrap;
+
+            &__article {
+                flex: 3;
+                flex-wrap: wrap;
+                height: 250px;
+                margin-right: 10px;
+                margin-top: 20px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                    cursor: pointer;
+                    border: 3px solid $color-black;
+                    transition: all 250ms ease-in-out;
+
+                    &:hover {
+                        transform: scale(0.9);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Media Query 
+
+@media screen and (max-width: 768px) {
+    .sopekocko {
+        display: flex;
+        flex-direction: column;
+
+        &__box {
+            margin-left: 0;
+            width: 100%;
+
+            &__text {
+                h2 {
+                    font-size: 25px;
+                }
+    
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            &__galerie {
+                &__article {
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .sopekocko {
+        &__box {
+            padding: 0 10px;
+
+            &__text {
+                h2 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+
+            &__galerie {
+                &__article {
+                    flex: auto;
+                    width: 100%;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sopekocko {
+        &__box {
+            &__img {
+                width: 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sopekocko {
+        &__box {
+            &__text {
+                h2 {
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
