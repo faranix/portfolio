@@ -41,7 +41,7 @@
 
         <div class="sopekocko__box__galerie">
             <div v-for="(image, index) in arrayImg" :key="index" @click="openModal(arrayImg[index])" class="sopekocko__box__galerie__article">
-                <img :id="image" :src="require(`../../assets/images/projet-4/${image}.jpg`)" alt="Une images d'un menu du projet Sopekocko">
+                <img :id="image" :src="require(`../../assets/images/projet-4/${image}.jpg`)" alt="Une images de une sauce du projet Sopekocko">
             </div>
         </div>
     </div>

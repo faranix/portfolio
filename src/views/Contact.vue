@@ -32,7 +32,7 @@
 
               <div class="form__message" spellcheck="true">
                 <label for="message">Message*</label>
-                <input v-model="message" type="text" name="message" id="message" required>
+                <textarea v-model="message" name="message" id="message" cols="30" rows="7" required></textarea>
               </div>
               <button id="btn" :style="{transition: `all 200ms ease`}" type="submit" value="envoyer">Envoyer</button>
           </form>

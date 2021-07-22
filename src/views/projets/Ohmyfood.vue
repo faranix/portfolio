@@ -14,11 +14,11 @@
                 <p>
                     Ce projet utilise du HTML, SASS. Dans ce projet j'étais chargé de l'intégration des maquettes, des différentes 
                     animations. Au niveau des animations il y a un loader des animations quand on arrive sur les pages, cette animation 
-                    a était repris pour mon portfolio. il y a également des annimations quand on veut choisir quelque chose dans le menu.
+                    a était repris pour mon portfolio. il y a également des animations quand on veut choisir quelque chose dans le menu.
                 </p>
 
                 <p>
-                    Ce projet m’a permis des maitrisser SASS, les keyframes, approfondir mes connaissances sur les animations et de
+                    Ce projet m’a permis des maitriser SASS, les keyframes, approfondir mes connaissances sur les animations et de
                     comprendre les sélecteurs, comment utiliser un hover sur plusieurs élement avec du CSS.
                     Cette animation a été utilisée dans la catégorie expérience de mon portfolio, de maitrisser les transitions.
                 </p>

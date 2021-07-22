@@ -42,7 +42,7 @@
 
             <div class="reservia__box__galerie">
                 <div v-for="(image, index) in arrayImg" :key="index" @click="openModal(arrayImg[index])" class="reservia__box__galerie__article">
-                    <img :id="image" :src="require(`../../assets/images/projet-2/${image}.jpg`)" alt="Une images du projet Reservia">
+                    <img :id="image" :src="require(`../../assets/images/projet-2/${image}.jpg`)" alt="Une image du projet Reservia">
                 </div>
             </div>
         </div>

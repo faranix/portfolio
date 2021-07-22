@@ -3,7 +3,7 @@
       <Header />
 
       <div class="mybeautybreak__box">
-            <img class="groupamania__box__img" src="../../assets/images/projet-6/my-beauty-break.jpg" alt="Une images du projet de Groupamania">
+            <img class="groupamania__box__img" src="../../assets/images/projet-6/my-beauty-break.jpg" alt="Une images du projet de My Beauty Break">
             <div class="mybeautybreak__box__text">
                 <h2>My Beauty Break</h2>
                 <p>
