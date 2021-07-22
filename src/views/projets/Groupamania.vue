@@ -9,7 +9,7 @@
         />
 
         <div class="groupamania__box">
-            <img class="groupamania__box__img" src="../../assets/images/projet-5/groupamania-6.png" alt="Une images du projet de Groupamania">
+            <img class="groupamania__box__img" src="../../assets/images/projet-5/groupamania-6.jpg" alt="Une images du projet de Groupamania">
             <div class="groupamania__box__text">
                 <h2>Groupamania</h2>
                 <p>
@@ -48,7 +48,7 @@
 
             <div class="groupamania__box__galerie">
                 <div v-for="(image, index) in arrayImg" :key="index" @click="openModal(arrayImg[index])" class="groupamania__box__galerie__article">
-                    <img :id="image" :src="require(`../../assets/images/projet-5/${image}.png`)" alt="Une images d'un menu du projet Ohmyfood">
+                    <img :id="image" :src="require(`../../assets/images/projet-5/${image}.jpg`)" alt="Une images du site de Groupamania">
                 </div>
             </div>
         </div>
