@@ -1,0 +1,129 @@
+@import "../stock/variable";
+@import "../stock/mixin";
+@import "../stock/animation";
+
+.competence {
+
+    &__box {
+        position: fixed;
+        left: 40%;
+        animation: pageAnimation 1s ease-in;
+
+        h2 {
+            font-size: 30px;
+            font-weight: normal;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-bottom: 40px;
+        }
+
+        li {
+            min-width: 500px;
+            text-align: center;
+            margin-bottom: 10px;
+            padding: 5px 0;
+            font-size: 15px;
+            border: 1px $color-black solid;
+            border-radius: 5px;
+            transition: all 200ms ease-out;
+        }
+
+        li:hover {
+            color: white;
+        }
+
+        // Front-end
+        #javascript:hover {
+            background: linear-gradient(90deg, $color-purple 85%, $color-background 0%);
+        }
+
+        #vuejs:hover {
+            background: linear-gradient(90deg, $color-purple 80%, $color-background 0%);
+        }
+
+        #reactjs:hover {
+            background: linear-gradient(90deg, $color-purple 60%, $color-background 0%);
+        }
+
+        #html:hover {
+            background: linear-gradient(90deg, $color-purple 93%, $color-background 0%);
+        }
+
+        #css:hover {
+            background: linear-gradient(90deg, $color-purple 90%, $color-background 0%);
+        }
+
+        #sass:hover {
+            background: linear-gradient(90deg, $color-purple 85%, $color-background 0%);
+        }
+
+        // Back-end
+        #nodejs:hover {
+            background: linear-gradient(90deg, $color-purple 65%, $color-background 0%);
+        }
+
+        // DataBase
+
+        #mysql:hover {
+            background: linear-gradient(90deg, $color-purple 55%, $color-background 0%);
+        }
+
+        #mongodb:hover {
+            background: linear-gradient(90deg, $color-purple 75%, $color-background 0%);
+        }
+
+    }
+}
+
+// Media Query 
+
+@media screen and (max-width: 768px) {
+    .competence {
+        &__box {
+            position: initial;
+
+            h2 {
+                margin-bottom: 40px;
+                font-size: 25px;
+            }
+
+            ul {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .competence {
+        &__box {
+            li {
+                min-width: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .competence {
+        &__box {
+            ul {
+                margin-bottom: 40px;
+            }
+
+            li {
+                border-right: none;
+                border-left: none;
+                border-radius: 0px;
+            }
+        }
+    }
+}

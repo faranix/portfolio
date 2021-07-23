@@ -32,6 +32,11 @@ const routes = [
     name: 'Contact',
     component: () => import("../views/Contact.vue")
   },
+  {
+    path: "/competence",
+    name: "Competence",
+    component: () => import("../views/Competence.vue")
+  },
 
   // Les projets
   {
