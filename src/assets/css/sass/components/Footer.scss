@@ -14,7 +14,7 @@
             transition: all 200ms ease-out;
 
             &:hover {
-                width: 24px;
+                animation: logoAnim 200ms ease-in 2; 
             }
         }
     }
@@ -31,13 +31,6 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
-        &__icon {
-            &__img {
-                width: 20px;
-
-            }
-        }
-
         &__copyright {
             font-size: 18px;
         }

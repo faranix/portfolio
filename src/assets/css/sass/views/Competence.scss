@@ -41,43 +41,44 @@
         }
 
         // Front-end
-        #javascript:hover {
-            background: linear-gradient(90deg, $color-purple 85%, $color-background 0%);
+        #javascript {
+            animation: javascript 1.5s 200ms ease-in-out both;
         }
 
-        #vuejs:hover {
-            background: linear-gradient(90deg, $color-purple 80%, $color-background 0%);
+        #vuejs {
+            animation: vuejs 1.5s 200ms ease-in-out both;
         }
 
-        #reactjs:hover {
-            background: linear-gradient(90deg, $color-purple 60%, $color-background 0%);
+        #reactjs {
+            animation: reactjs 1.5s 200ms ease-in-out both;
         }
 
-        #html:hover {
-            background: linear-gradient(90deg, $color-purple 93%, $color-background 0%);
+        #html {
+            animation: html 1.5s 200ms ease-in-out both;
         }
 
-        #css:hover {
-            background: linear-gradient(90deg, $color-purple 90%, $color-background 0%);
+        #css {
+            animation: css 1.5s 200ms ease-in-out both;
+
         }
 
-        #sass:hover {
-            background: linear-gradient(90deg, $color-purple 85%, $color-background 0%);
+        #sass {
+            animation: sass 1.5s 200ms ease-in-out both;
         }
 
         // Back-end
-        #nodejs:hover {
-            background: linear-gradient(90deg, $color-purple 65%, $color-background 0%);
+        #nodejs {
+            animation: nodejs 1.5s 200ms ease-in-out both;
         }
 
         // DataBase
 
-        #mysql:hover {
-            background: linear-gradient(90deg, $color-purple 55%, $color-background 0%);
+        #mysql {
+            animation: mysql 1.5s 200ms ease-in-out both;
         }
 
-        #mongodb:hover {
-            background: linear-gradient(90deg, $color-purple 75%, $color-background 0%);
+        #mongodb {
+            animation: mongodb 1.5s 200ms ease-in-out both;
         }
 
     }
