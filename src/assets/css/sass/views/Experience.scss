@@ -33,7 +33,6 @@
                 left: 122.5%;
                 top: 50%;
                 transform: translate(-50%, -50%);
-                content: " ";
                 width: 40px;
                 height: 40px;
                 border-radius: 100%;
@@ -65,12 +64,128 @@
         left: 50%;
         content: "";
         width: 5px;
-        height: 90%;
+        height: 98%;
         background-color: $color-black;
     }
 }
 
 // Media Query 
+
+
+
+@media screen and (max-width: 1920px) {
+    .experience {
+        &__box {
+            &__article {
+                .fa-briefcase {
+                    left: 167%;
+                }
+
+            }
+
+            .article-end {
+                .fa-briefcase {
+                    left: -65.3%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .experience {
+        &__box {
+            &__article {
+                .fa-briefcase {
+                    left: 145%;
+                }
+
+            }
+
+            .article-end {
+                .fa-briefcase {
+                    left: -43.4%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    .experience {
+        &__box {
+            &__article {
+                .fa-briefcase {
+                    left: 139.5%;
+                }
+
+            }
+
+            .article-end {
+                .fa-briefcase {
+                    left: -37.5%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .experience {
+        &__box {
+            &__article {
+                .fa-briefcase {
+                    left: 137.5%;
+                }
+
+            }
+
+            .article-end {
+                .fa-briefcase {
+                    left: -36%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1540px) {
+    .experience {
+        &__box {
+            &__article {
+                .fa-briefcase {
+                    left: 131.5%;
+                }
+
+            }
+
+            .article-end {
+                .fa-briefcase {
+                    left: -30.2%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .experience {
+        &__box {
+            &__article {
+                .fa-briefcase {
+                    left: 122.7%;
+                }
+
+            }
+
+            .article-end {
+                .fa-briefcase {
+                    left: -21.3%;
+                }
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .experience {
