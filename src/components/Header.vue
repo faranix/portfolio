@@ -1,11 +1,13 @@
 <template>
   <div class="header">
     <section class="header__top">
+      <a href="#" class="header__top__logo">
         <img src="../assets/svg/icon-title.svg" alt="Un Icon">
-        <div>
-            <h1 class="header__top__name">Stéphane Gledic</h1>
-            <p class="header__top__metier">Développeur web</p>
-        </div>
+      </a>
+      <div>
+          <h1 class="header__top__name">Stéphane Gledic</h1>
+          <p class="header__top__metier">Développeur web</p>
+      </div>
     </section>
     <Menu
       v-if="menu != 0"

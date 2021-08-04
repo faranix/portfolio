@@ -1,0 +1,130 @@
+@import "../stock/variable";
+@import "../stock/mixin";
+@import "../stock/animation";
+
+.competence {
+
+    &__box {
+        position: fixed;
+        left: 40%;
+        animation: pageAnimation 1s ease-in;
+
+        h2 {
+            font-size: 30px;
+            font-weight: normal;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-bottom: 40px;
+        }
+
+        li {
+            min-width: 500px;
+            text-align: center;
+            margin-bottom: 10px;
+            padding: 5px 0;
+            font-size: 15px;
+            border: 1px $color-black solid;
+            border-radius: 5px;
+            transition: all 200ms ease-out;
+        }
+
+        li:hover {
+            color: white;
+        }
+
+        // Front-end
+        #javascript {
+            animation: javascript 1.5s 200ms ease-in-out both;
+        }
+
+        #vuejs {
+            animation: vuejs 1.5s 200ms ease-in-out both;
+        }
+
+        #reactjs {
+            animation: reactjs 1.5s 200ms ease-in-out both;
+        }
+
+        #html {
+            animation: html 1.5s 200ms ease-in-out both;
+        }
+
+        #css {
+            animation: css 1.5s 200ms ease-in-out both;
+
+        }
+
+        #sass {
+            animation: sass 1.5s 200ms ease-in-out both;
+        }
+
+        // Back-end
+        #nodejs {
+            animation: nodejs 1.5s 200ms ease-in-out both;
+        }
+
+        // DataBase
+
+        #mysql {
+            animation: mysql 1.5s 200ms ease-in-out both;
+        }
+
+        #mongodb {
+            animation: mongodb 1.5s 200ms ease-in-out both;
+        }
+
+    }
+}
+
+// Media Query 
+
+@media screen and (max-width: 768px) {
+    .competence {
+        &__box {
+            position: initial;
+
+            h2 {
+                margin-bottom: 40px;
+                font-size: 25px;
+            }
+
+            ul {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .competence {
+        &__box {
+            li {
+                min-width: 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .competence {
+        &__box {
+            ul {
+                margin-bottom: 40px;
+            }
+
+            li {
+                border-right: none;
+                border-left: none;
+                border-radius: 0px;
+            }
+        }
+    }
+}

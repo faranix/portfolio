@@ -1,3 +1,7 @@
+@import "./variable";
+
+// Animation de page
+
 @keyframes pageAnimation {
     0% {
         opacity: 0;
@@ -15,3 +19,460 @@
         opacity: 1;
     }
 }
+
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+
+// Animation des logos
+
+@keyframes logoAnim {
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  30% {
+    -webkit-transform: scale(1.1);
+  }
+
+  60% {
+    -webkit-transform: scale(1.2);
+  }
+
+  80% {
+    -webkit-transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+
+// Animation des competences
+
+@keyframes javascript {
+  10% {
+    background: linear-gradient(90deg, $color-purple 0%, $color-background 0%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, $color-purple 10%, $color-background 0%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, $color-purple 25%, $color-background 0%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, $color-purple 35%, $color-background 0%);
+  }
+
+  50% {
+    background: linear-gradient(90deg, $color-purple 45%, $color-background 0%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, $color-purple 55%, $color-background 0%);
+  }
+
+  70% {
+    background: linear-gradient(90deg, $color-purple 65%, $color-background 0%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, $color-purple 75%, $color-background 0%);
+  }
+
+  90% {
+    background: linear-gradient(90deg, $color-purple 80%, $color-background 0%);
+  }
+
+  100% {
+    background: linear-gradient(90deg, $color-purple 85%, $color-background 0%);
+    color: $color-white;
+
+  } 
+}
+
+@keyframes vuejs {
+  10% {
+    background: linear-gradient(90deg, $color-purple 0%, $color-background 0%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, $color-purple 10%, $color-background 0%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, $color-purple 25%, $color-background 0%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, $color-purple 35%, $color-background 0%);
+  }
+
+  50% {
+    background: linear-gradient(90deg, $color-purple 45%, $color-background 0%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, $color-purple 55%, $color-background 0%);
+  }
+
+  70% {
+    background: linear-gradient(90deg, $color-purple 65%, $color-background 0%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, $color-purple 75%, $color-background 0%);
+  }
+
+  90% {
+    background: linear-gradient(90deg, $color-purple 78%, $color-background 0%);
+  }
+
+  100% {
+    background: linear-gradient(90deg, $color-purple 80%, $color-background 0%);
+    color: $color-white;
+
+  } 
+}
+
+@keyframes reactjs {
+  10% {
+    background: linear-gradient(90deg, $color-purple 0%, $color-background 0%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, $color-purple 10%, $color-background 0%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, $color-purple 25%, $color-background 0%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, $color-purple 30%, $color-background 0%);
+  }
+
+  50% {
+    background: linear-gradient(90deg, $color-purple 35%, $color-background 0%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, $color-purple 40%, $color-background 0%);
+  }
+
+  70% {
+    background: linear-gradient(90deg, $color-purple 45%, $color-background 0%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, $color-purple 50%, $color-background 0%);
+  }
+
+  90% {
+    background: linear-gradient(90deg, $color-purple 55%, $color-background 0%);
+  }
+
+  100% {
+    background: linear-gradient(90deg, $color-purple 60%, $color-background 0%);
+    color: $color-white;
+
+  } 
+}
+
+@keyframes html {
+  10% {
+    background: linear-gradient(90deg, $color-purple 0%, $color-background 0%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, $color-purple 10%, $color-background 0%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, $color-purple 18%, $color-background 0%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, $color-purple 28%, $color-background 0%);
+  }
+
+  50% {
+    background: linear-gradient(90deg, $color-purple 38%, $color-background 0%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, $color-purple 48%, $color-background 0%);
+  }
+
+  70% {
+    background: linear-gradient(90deg, $color-purple 58%, $color-background 0%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, $color-purple 68%, $color-background 0%);
+  }
+
+  90% {
+    background: linear-gradient(90deg, $color-purple 78%, $color-background 0%);
+  }
+
+  100% {
+    background: linear-gradient(90deg, $color-purple 93%, $color-background 0%);
+    color: $color-white;
+
+  } 
+}
+
+@keyframes css {
+  10% {
+    background: linear-gradient(90deg, $color-purple 0%, $color-background 0%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, $color-purple 10%, $color-background 0%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, $color-purple 25%, $color-background 0%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, $color-purple 30%, $color-background 0%);
+  }
+
+  50% {
+    background: linear-gradient(90deg, $color-purple 35%, $color-background 0%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, $color-purple 40%, $color-background 0%);
+  }
+
+  70% {
+    background: linear-gradient(90deg, $color-purple 45%, $color-background 0%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, $color-purple 50%, $color-background 0%);
+  }
+
+  90% {
+    background: linear-gradient(90deg, $color-purple 55%, $color-background 0%);
+  }
+
+  100% {
+    background: linear-gradient(90deg, $color-purple 60%, $color-background 0%);
+    color: $color-white;
+
+  } 
+}
+
+@keyframes sass {
+  10% {
+    background: linear-gradient(90deg, $color-purple 0%, $color-background 0%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, $color-purple 10%, $color-background 0%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, $color-purple 20%, $color-background 0%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, $color-purple 30%, $color-background 0%);
+  }
+
+  50% {
+    background: linear-gradient(90deg, $color-purple 40%, $color-background 0%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, $color-purple 50%, $color-background 0%);
+  }
+
+  70% {
+    background: linear-gradient(90deg, $color-purple 60%, $color-background 0%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, $color-purple 70%, $color-background 0%);
+  }
+
+  90% {
+    background: linear-gradient(90deg, $color-purple 80%, $color-background 0%);
+  }
+
+  100% {
+    background: linear-gradient(90deg, $color-purple 85%, $color-background 0%);
+    color: $color-white;
+
+  } 
+}
+
+@keyframes nodejs {
+  10% {
+    background: linear-gradient(90deg, $color-purple 0%, $color-background 0%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, $color-purple 10%, $color-background 0%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, $color-purple 20%, $color-background 0%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, $color-purple 30%, $color-background 0%);
+  }
+
+  50% {
+    background: linear-gradient(90deg, $color-purple 40%, $color-background 0%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, $color-purple 45%, $color-background 0%);
+  }
+
+  70% {
+    background: linear-gradient(90deg, $color-purple 50%, $color-background 0%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, $color-purple 55%, $color-background 0%);
+  }
+
+  90% {
+    background: linear-gradient(90deg, $color-purple 60%, $color-background 0%);
+  }
+
+  100% {
+    background: linear-gradient(90deg, $color-purple 65%, $color-background 0%);
+    color: $color-white;
+
+  } 
+}
+
+@keyframes mysql {
+  10% {
+    background: linear-gradient(90deg, $color-purple 0%, $color-background 0%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, $color-purple 10%, $color-background 0%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, $color-purple 20%, $color-background 0%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, $color-purple 25%, $color-background 0%);
+  }
+
+  50% {
+    background: linear-gradient(90deg, $color-purple 30%, $color-background 0%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, $color-purple 35%, $color-background 0%);
+  }
+
+  70% {
+    background: linear-gradient(90deg, $color-purple 40%, $color-background 0%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, $color-purple 45%, $color-background 0%);
+  }
+
+  90% {
+    background: linear-gradient(90deg, $color-purple 50%, $color-background 0%);
+  }
+
+  100% {
+    background: linear-gradient(90deg, $color-purple 58%, $color-background 0%);
+    color: $color-white;
+
+  } 
+}
+
+@keyframes mongodb {
+  10% {
+    background: linear-gradient(90deg, $color-purple 0%, $color-background 0%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, $color-purple 10%, $color-background 0%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, $color-purple 20%, $color-background 0%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, $color-purple 30%, $color-background 0%);
+  }
+
+  50% {
+    background: linear-gradient(90deg, $color-purple 40%, $color-background 0%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, $color-purple 50%, $color-background 0%);
+  }
+
+  70% {
+    background: linear-gradient(90deg, $color-purple 60%, $color-background 0%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, $color-purple 65%, $color-background 0%);
+  }
+
+  90% {
+    background: linear-gradient(90deg, $color-purple 70%, $color-background 0%);
+  }
+
+  100% {
+    background: linear-gradient(90deg, $color-purple 75%, $color-background 0%);
+    color: $color-white;
+
+  } 
+}
+
+

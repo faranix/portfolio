@@ -1,7 +1,7 @@
 @import "../stock/variable";
 
 .footer {
-    margin: 186px 0px 50px 114px;
+    margin: 85px 0px 50px 114px;
 
     &__icon {
         display: flex;
@@ -14,7 +14,7 @@
             transition: all 200ms ease-out;
 
             &:hover {
-                width: 24px;
+                animation: logoAnim 200ms ease-in 2; 
             }
         }
     }
@@ -31,14 +31,6 @@
 
 @media screen and (max-width: 1024px) {
     .footer {
-        margin-top: 140px;
-        &__icon {
-            &__img {
-                width: 20px;
-
-            }
-        }
-
         &__copyright {
             font-size: 18px;
         }

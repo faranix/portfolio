@@ -1,3 +1,7 @@
+@import "../stock/variable";
+@import "../stock/mixin";
+@import "../stock/animation";
+
 .header {
     color: $color-black;
     position: fixed;
@@ -6,6 +10,11 @@
     &__top {
         margin-right: 147px;
         display: flex;
+
+        img {
+            -webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+        }
 
         div {
             margin-left: 10px;

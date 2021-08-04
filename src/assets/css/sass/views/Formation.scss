@@ -57,10 +57,7 @@
                 transition: all 200ms ease-in-out;
 
                 &:hover {
-                    border: 2px solid $color-purple;
-                    border-radius: 9999px;
-                    background-color: $color-purple;
-                    color: $color-white;
+                    color: $color-purple;
                 }
             }
 

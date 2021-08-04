@@ -6,6 +6,7 @@
             <li><a @click="closeMenu()" href="/#/projets" class="menu__nav__element">Projets</a></li>
             <li><a @click="closeMenu()" href="/#/formation" class="menu__nav__element">Formations</a></li>
             <li><a @click="closeMenu()" href="/#/experience" class="menu__nav__element">Expériences</a></li>
+            <li><a @click="closeMenu()" href="/#/competence" class="menu__nav__element">Compétences</a></li>
           </ul>
           <ul>
             <li><a @click="closeMenu()" href="/#/a-propos" class="menu__nav__element">A propos</a></li>
