@@ -20,6 +20,7 @@
             <div class="competence__box__backend">
                 <h3>Backend</h3>
                 <ul>
+                    <li id="php">PHP</li>
                     <li id="nodejs">NodeJs</li>
                 </ul>
             </div>
